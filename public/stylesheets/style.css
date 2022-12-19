@@ -1,0 +1,297 @@
+body {
+  margin: 0px;
+  background-color: #EFEFEF;
+}
+
+
+/*Menu*/
+#menu {
+  height: 80px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding-right: 10px;
+  background-color: #ffe711;
+  box-shadow: 0px -10px 13px 8px black; 
+}
+#menu img {
+  width: 71px;
+  padding-left: 45px;
+}
+#menu-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  font-family: Open Sans;
+font-style: normal;
+font-size: 24px;
+color: #777777;
+}
+
+#menu-text span {
+  margin-left: 20px;
+}
+
+#sub-menu {
+
+  display: flex;
+  align-items: center;
+  /* box-shadow: 0px -10px 13px 8px black; */
+  margin-bottom: 6px;
+  background-color:#ffe711;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.img-menu {
+ width: 25px;
+
+}
+#pesquisa-menu {
+
+  width: 270px;
+  display: flex;
+  border-radius: 34px;
+  background-color: white;
+  height: 30px;
+  justify-content: space-around;
+  align-items: center;
+  align-self: center;
+}
+/*-------------------*/
+
+/*Banner*/
+#banner-principal img{
+  width: 100%;
+  margin-bottom: 90px;
+  margin-top: 10px;
+}
+/*-------------------*/
+
+/*Universo*/
+.sub-titulo {
+  margin-left: 40px;
+  text-transform: uppercase;
+  font-family: Open Sans;
+font-style: normal;
+font-size: 24px;
+color: #777777;
+  
+}
+#universo-fav {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+
+  background-size: cover;
+  background-position: center;
+  opacity: 0.6;
+  color: white;
+  margin-bottom: 90px;
+
+}
+#universo-fav div {
+  background-image: url(/images/fav.png);
+  background-repeat: no-repeat;
+
+background-position: center;
+  width: 20%;
+  height: 170px;
+}
+
+#universo-fav div span{
+  text-shadow: 1px 1px 2px black;
+  font-size: 25px;
+}
+#universo-hq{
+  background-image: url(/images/fav.png);
+
+}
+#universo-psicologia{
+  background-image: url(/images/fav.png);
+
+}
+#universo-decolonial{
+  background-image: url(/images/fav.png);
+ 
+}
+
+/*-------------------*/
+
+/*Destaque*/
+.div-destaque {
+  width: 279px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: thin;
+  padding: 10px;
+  text-align: center;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+.div-destaque img {
+  width: 279px;
+  height: 311px;
+}
+.div-destaque h2 {
+ margin-top: 0px;
+}
+.sub-destaque p {
+  font-size: 25px;
+  padding-bottom: 0px;
+}
+.destaque-badge {
+      font-size: 34px;
+      padding-left: 15px;
+      padding-right: 15px;
+      border-radius: 35px;
+      color: white;
+      background-color: #ffe711;
+      text-shadow: 1px 1px 2px black;
+      
+}
+
+#destaque {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  flex-direction: row;
+  flex-flow: row;
+  margin-bottom: 10px;
+  margin-bottom: 90px;
+
+}
+.sub-destaque {
+  margin: 0px;
+}
+
+
+
+/*-------------------*/
+
+/*Categoria*/
+.div-categoria {
+  width: 220px;
+  height: 201px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  flex-wrap: wrap;
+}
+#categoria {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+  margin-bottom: 90px;
+}
+
+.div-categoria span {
+  text-transform: uppercase;
+font-style: normal;
+font-size: 20px;
+color: #000000;
+font-weight: bold;
+  text-align: center;
+
+
+}
+
+/*-------------------*/
+
+
+
+/*Publicação*/
+#publi {
+  height: 282px;
+  background-image: url("/images/pubi.png");
+  margin-top: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*-------------------*/
+/*main-footer*/
+footer {
+  position: fixed bottom;
+}
+#main-footer {
+  background-color:  #ffe711;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 35px;
+  padding-right: 30px;
+  margin-top: 50px;
+}
+
+#div-footer-1 {
+  width: 25%;
+}
+#div-footer-1 p {
+  margin-top: -26px;
+}
+
+#main-footer div {
+  font-family: Open Sans;
+font-size: 11px;
+color: #000000;
+}
+
+/* ----------------------------- */
+/* Login */
+#trabalhe-conosco {
+  display: flex;
+  justify-content: center;
+}
+#trabalhe-conosco > div {
+  width: 45%;
+}
+
+#forms-trabalhe {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 30px;
+}
+
+#div-text {
+  padding-top: 102px;
+  padding-left: 15px;
+}
+h1 {
+  font-family: Open Sans;
+font-style: normal;
+font-size: 32px;
+
+color: #575757;
+}
+#forms-trabalhe > label {
+  padding-top: 10px;
+}
+
+.badge-enviar {
+  background-color: #ffe711;
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+color: #FFFFFF;
+border: 2px solid #ffe711;
+text-shadow: 1px 1px 2px black;
+}
+.badge-enviar:hover {
+  background-color: #FFFFFF;
+  color: #ffe711;
+  transition: all 2s;
+}
+
+/* ------------------------------ */

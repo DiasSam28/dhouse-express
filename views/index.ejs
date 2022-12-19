@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ler Mais</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <%- include("./partials/header") %>
+  <main>
+      <section id="banner-principal">
+          <!-- Banner-principal -->
+          <img src="/images/capa.png" alt="">
+      </section>
+     
+      <span class="sub-titulo">navegue pelo seu universo</span>
+          <section id="universo-fav">
+
+              <div id="universo-hq">
+                  <span>HQ's</span>
+      
+              </div>
+              <div id="universo-psicologia">
+                  <span>Psicologia</span>
+      
+              </div>
+              <div id="universo-decolonial">
+                  <span>Decolonial</span>
+      
+              </div>
+            
+          </section>
+
+          
+          <span class="sub-titulo">destaque</span>  
+  <section id="destaque">
+           
+            <% produtos.forEach(function(produto) { %>
+                <div class="div-destaque">
+                
+           <img src="/uploads/<%= produto.imagem %>" style="width: 100%; height: 100%">
+            <div class="sub-destaque">
+                
+                <h3><%= produto.nome %></h3>
+                <h4>R$ <%= produto.valor %></h4>
+               <span class="destaque-badge"><a href="#" style="text-decoration:none; color: white;">Ver Mais</a></span>
+            </div>
+        </div>
+            <% }) %>
+       
+        </section>
+  <span class="sub-titulo">categorias</span>
+  <section id="categoria">
+      <div class="div-categoria">
+          <span>Direito</span>
+
+      </div>
+      <div class="div-categoria">
+          <span>Literatura Estrangeira</span>
+      </div>
+      <div class="div-categoria">
+          <span>Autoajuda</span>
+          
+      </div>
+      <div class="div-categoria">
+          <span>Literatura Nacional</span>
+      </div>
+  </section>
+  
+      
+
+  </main>
+  <%- include("./partials/footer") %>
+  </body>
+</html>
